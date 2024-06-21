@@ -1,0 +1,8 @@
+"""crie uma calculadora que recebe uma entrada e apresenta o resultado na tela """
+from datetime import date #importar biblioteca de datas
+#date.today()
+n1 = int(input("digite o primeiro numero: "))
+n2 = int(input("digite o segundo numero: "))
+#print(date.today()) #mostrar no console data de hoje .
+print("Today's date is: " + str(date.today()))
+print(f"a soma é: {n1+n2}")

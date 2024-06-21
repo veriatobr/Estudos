@@ -1,0 +1,9 @@
+"""i=100
+while(i<=200):
+print(i)
+i+=20"""
+
+
+nome = str(input("insira um nome"))
+while nome:
+               nome = str(input("insira um nome"))

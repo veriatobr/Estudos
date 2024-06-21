@@ -1,0 +1,35 @@
+""" faca um programa simples que pergunte os tipos de pecas os precos e de o valor final do orcamento de pecas para computador"""
+
+objetivo = str(input("DIGITE O OBJETIVO DE MONTAR ESTE COMPUTADOR: "))
+placamae = str(input("DIGITE O MODELO DE PLACA MAE DESEJADA: "))
+vplacamae = float(input("DIGITE O VALOR DA PLACA MAE: "))
+processador = str(input("DIGITE O PROCESSADOR DESEJADO: "))
+vprocessador = float(input("DIGITE O VALOR DO PROCESSADOR DESEJADO: "))
+placadevideo = str(input("DIGITE O PLACA DE VIDEO DESEJADO: ")) 
+vplacadevideo = float(input("DIGITE O VALOR DO PLACA DE VIDEO DESEJADO: "))
+ram = str(input("DIGITE A MEMORIA RAM DESEJADA E O MODELO DESEJADO: "))
+qram = int(input("DIGITE QUANTAS MEMORIAS RAMS SERAO UTILIZADAS: "))
+vram = float(input("DIGITE O VALOR DA MEMORIA RAM DESEJADO: "))
+watercooler = str(input("DIGITE O WATER COOLER DESEJADO: "))
+vwatercooler = float(input("DIGITE O VALOR DO WATER COOLER DESEJADO: "))
+ssd = str(input("DIGITE O SSD DESEJADO: "))
+qssd = int(input("DIGITE QUANTOS SSD VAO SER UTILIZADOS: "))
+vssd = float(input("DIGITE O VALOR DO SSD DESEJADO: "))
+fans = str(input("DIGITE QUANTAS FANS E O MODELO DESEJADO: "))
+qfans = int(input("DIGITE QUANTAS FANS SERAO UTILIZADAS: "))
+vfans = float(input("DIGITE O VALOR DAS FANS DESEJADO: "))
+gabinete = str(input("DIGITE O MODELO DE GABINETE DESEJADO: "))
+vgabinete = float(input("DIGITE O VALOR DO GABINETE DESEJADO: "))
+suporteplacadevideo = str(input("DIGITE O SUPORTE DE PLACA DE VIDEO DESEJADO: "))
+vsuporteplaacadevideo = float(input("DIGITE O VALOR DO SUPORTE DE PLACA DE VIDEO DESEJADO: "))
+caboseacessorios = str(input("DIGITE OS ACESSORIOS DESEJADO: "))
+vcaboseacessorios = float(input("DIGITE O VALOR DOS ACESSORIOS DESEJADO: "))
+monitor = str(input("DIGITE O MODELO DE MONITOR DESEJADO: "))
+vmonitor = float(input("DIGITE O VALOR DO MONITOR DESEJADO: "))
+(print(""))
+(print(""))
+
+total = vplacamae+vprocessador+vplacadevideo+(qram*vram)+vwatercooler+(qssd*vssd)+(qfans*vfans)+vgabinete+vsuporteplaacadevideo+vcaboseacessorios+vmonitor
+
+print(f"SEGUE ABAIXO A LISTA DE PRODUTOS DO PROJETO E NO FINAL O VALOR DO MESMO\nO MODELO DE PLACA MAE É? {placamae}\nO MODELO DE PROCESSADOR É? {processador}\nO MODELO DE PLACA DE VIDEO É? {placadevideo}\nO MODELO DE MEMORIA RAM É? {ram}\nO MODELO DE WATER COOLER É? {watercooler}\nO MODELO DE SSD É? {ssd}\nO MODELO DE FAN É? {fans}\nO MODELO DO GABINETE É? {gabinete}\nO SUPORTE DE PLACA DE VIDEO É? {suporteplacadevideo}\nOS ACESSORIOS SAO? {caboseacessorios}\nO MONITOR É? {monitor}\n\nTOTAL DO PROJETO É: R${total}")
+
