@@ -13,3 +13,6 @@
 <ol> lista ordenada</ol> tambem utiliza a tag<li> ela deixa enumerada a lista de forma ordenada , ideal para perguntas , e formularios.
 <img/> = tag para colocar imagens , src atributo para utilizar a tag ex: src="caminho da imagem" width="largura" e o atributo para definir tamanho da imagem height="altura"
 <a> = ancoramento // atributo para o link = <a href="">
+<table> = tag para criar tabela border="" atributo para tabela
+<tr> dentro da table 
+<td> debtro da TR
